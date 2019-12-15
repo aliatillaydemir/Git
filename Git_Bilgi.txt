@@ -1,0 +1,21 @@
+* Git versiyon kontrol,daðýtým,kaynak aracýdýr.
+* Git yazýlým esnasýnda özellikle çok kiþili projeleri yönetme, görev daðýlýmýný saðlama gibi özelliklere sahiptir.
+* Git projelerin versiyonlarýný tutmanýzý saðlar. Bu, projede yazýlan kodlarda geri dönüþ saðlar(Sistem yazdýðýnýz kodun kopyasýný tutar).Bu da veri kaybýný engellemeye yönelik bir özelliktir. 
+* Git; GitHub,GitLab gibi open source depolama servislerine ulaþabilceðiniz bit sistem/araç idir.
+* Git Bash Here seçeneðindeki komutlarla olan iletiþimler,birçok komut Linux iþletim sistemi komutlarýyla paralellik gösterir.Bunun sebebi mucitlerinin ayný kiþi olmasýdýr. 
+* Git 2005 senesinde Linus Torvalds tarafýndan yazýlmýþtýr.
+
+----------------------
+
+'git init' --> Ýçinde bulundugumuz klasoru git reposu haline getirir. 
+'git status' --> Klasor içindeki dosyalarýn,belgelerin repoya gidip gitmediði DURUMUNU kontrol eder.
+'git add .' --> Tüm klasör ve dosyalar geçiþ bölgesine(stage area)eklenir.
+'git add dosyaismi' --> dosyaismi adlý klasor/dosya/belge... geçiþ bölgesine(stage area) eklenir.
+'git commit -m "istediginiz mesaj" ' --> repo'ya ,HEAD kýsma eklenir.Artýk dosyalar istenilen sunucuya gönderilmeye hazýrdýr.
+'git remote add origin https://git...' --> Verilen linkle origin(bu kýsma istediginizi yazabilirsiniz.) baðlanýr.
+'git push -u origin master' --> Bu kodla istediginiz  repoya gönderim yapabilirsiniz.
+'git diff' --> Dosyada yapýlan deðiþiklikleri gösterir.
+'git log' --> yapýlan commit iþlemlerini gösterir.
+
+'git config' --> kullanýcý adý,mail gibi bilgiler tanýmlanabilir. 
+git config --global user.name "atilla" || git config --global user.email "e-mail adresi"
